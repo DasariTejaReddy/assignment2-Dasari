@@ -1,5 +1,5 @@
 # Teja Reddy Dasari
-##### Badminton
+## Badminton
 
 **Badminton improves muscle strength and flexibility**
 

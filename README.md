@@ -36,3 +36,15 @@ Below table includes country names,Reason to visit and No. of days
 |   Paris             |  Eiffel Tower       |  20  |
 
 ------------------
+
+# Funny Quotes
+
+>Before you marry a person, you should first make them use a computer with slow Internet to see who they really are ***Will Ferrell***
+>>“I love being married. It's so great to find that one special person you want to annoy for the rest of your life.”***—Rita Rudner***
+
+---------
+
+
+
+
+

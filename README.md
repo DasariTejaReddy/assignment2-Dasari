@@ -7,8 +7,13 @@ It is a sport that explores speed changes, reaction time demands, and endurance 
 
 ----------
 
-# Playersname
+# Orderedlist
 1. Weekend warriors
 5. PV Sindhu
 4. Sania Nehwal
 2. Srikanth Kidambi
+
+# Unorderedlist
+- Bright Reds
+- Lakshya Sen 
+- Kidambi Srikanth

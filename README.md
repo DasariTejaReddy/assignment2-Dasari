@@ -47,14 +47,21 @@ Below table includes country names,Reason to visit and No. of days
 
 # Code Fencing
 
-> [How to get 301 redirects](https://www.semrush.com/blog/301-redirect-htaccess/?kw=&cmp=US_SRCH_DSA_Blog_New_Ads_EN&label=dsa_pagefeed&Network=g&Device=c&utm_content=645576876124&kwid=dsa-1753200730533&cmpid=19583513418&agpid=146272690558&BU=Core&extid=60162630435&adpos=&gclid=EAIaIQobChMI15qv5sX1_AIVDRGzAB15Bg0xEAAYASAAEgIElvD_BwE)
+> [How to Active Gzip Compression](https://stackoverflow.com/questions/20520314/enable-gzip-compression)
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
 
+<IfModule mod_filter.c>
 
-(Redirect 301 /oldpage.html http://www.yoursite.com/newpage.html
+AddOutputFilterByType DEFLATE "application/atom+xml" \"application/javascript" \"application/json" \
+"application/ld+json" \"application/manifest+json" \"application/rdf+xml" \ "application/rss+xml" \
+ "application/schema+json" \"application/vnd.geo+json" \"application/vnd.ms-fontobject" \"application/x-font-ttf" \"application/x-javascript" \"application/x-web-app-manifest+json" \"application/xhtml+xml" \"application/xml" \"font/eot" \ "font/opentype" \"image/bmp" \"image/svg+xml" \ "image/vnd.microsoft.icon" \"image/x-icon" \"text/cache-manifest" \"text/css" \ "text/html" \ "text/javascript" \ "text/plain" \ "text/vcard" \"text/vnd.rim.location.xloc" \"text/vtt" \text/x-component" \"text/x-cross-domain-policy" \"text/xml"
 
-Redirect 301 /oldpage2.html http://www.yoursite.com/folder/ 
+</IfModule>
 
-Redirect 301 / http://newsite.com/)
 
 
 

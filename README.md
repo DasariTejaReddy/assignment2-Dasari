@@ -50,7 +50,7 @@ Below table includes country names,Reason to visit and No. of days
 > [How to get 301 redirects](https://www.semrush.com/blog/301-redirect-htaccess/?kw=&cmp=US_SRCH_DSA_Blog_New_Ads_EN&label=dsa_pagefeed&Network=g&Device=c&utm_content=645576876124&kwid=dsa-1753200730533&cmpid=19583513418&agpid=146272690558&BU=Core&extid=60162630435&adpos=&gclid=EAIaIQobChMI15qv5sX1_AIVDRGzAB15Bg0xEAAYASAAEgIElvD_BwE)
 
 
-[source](Redirect 301 /oldpage.html http://www.yoursite.com/newpage.html
+(Redirect 301 /oldpage.html http://www.yoursite.com/newpage.html
 
 Redirect 301 /oldpage2.html http://www.yoursite.com/folder/ 
 

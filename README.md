@@ -47,7 +47,9 @@ Below table includes country names,Reason to visit and No. of days
 
 # Code Fencing
 
-> [How to Active Gzip Compression](https://stackoverflow.com/questions/20520314/enable-gzip-compression)
+> [How to Active Gzip Compression]
+``` (https://stackoverflow.com/questions/20520314/enable-gzip-compression)
+
 # BEGIN GZIP
 <ifmodule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript

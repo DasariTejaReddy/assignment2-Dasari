@@ -51,7 +51,10 @@ Below table includes country names,Reason to visit and No. of days
 
 
 [source](Redirect 301 /oldpage.html http://www.yoursite.com/newpage.html
-Redirect 301 /oldpage2.html http://www.yoursite.com/folder/ Redirect 301 / http://newsite.com/)
+
+Redirect 301 /oldpage2.html http://www.yoursite.com/folder/ 
+
+Redirect 301 / http://newsite.com/)
 
 
 

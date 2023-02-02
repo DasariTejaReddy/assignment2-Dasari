@@ -49,7 +49,7 @@ Below table includes country names,Reason to visit and No. of days
 
 > How to Active Gzip Compression?
 (https://stackoverflow.com/questions/20520314/enable-gzip-compression)
-```
+~~~
 # BEGIN GZIP
 <ifmodule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
@@ -63,7 +63,7 @@ AddOutputFilterByType DEFLATE "application/atom+xml" \"application/javascript" \
  "application/schema+json" \"application/vnd.geo+json" \"application/vnd.ms-fontobject" \"application/x-font-ttf" \"application/x-javascript" \"application/x-web-app-manifest+json" \"application/xhtml+xml" \"application/xml" \"font/eot" \ "font/opentype" \"image/bmp" \"image/svg+xml" \ "image/vnd.microsoft.icon" \"image/x-icon" \"text/cache-manifest" \"text/css" \ "text/html" \ "text/javascript" \ "text/plain" \ "text/vcard" \"text/vnd.rim.location.xloc" \"text/vtt" \text/x-component" \"text/x-cross-domain-policy" \"text/xml"
 
 </IfModule>
-```
+~~~
 (https://css-tricks.com/snippets/htaccess/active-gzip-compression/)
 
 
